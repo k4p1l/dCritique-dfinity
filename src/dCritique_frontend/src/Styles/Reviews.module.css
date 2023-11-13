@@ -1,0 +1,30 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.2rem;
+    background-color:#ffffe8 ;
+    border-radius: 1.5rem;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.review{
+    color: #37429b;
+    font-family: Inter;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.star{
+    color: #37429b;
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
