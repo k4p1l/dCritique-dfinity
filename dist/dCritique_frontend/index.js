@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/noisy.ico */ "./src/dCritique_frontend/assets/noisy.ico"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/noise-light.ico */ "./src/dCritique_frontend/assets/noise-light.ico"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -37,17 +37,19 @@ h2 {
   font-size: 6rem;
   margin: 0px;
   color: #3f45fa;
+  color: #fefdec;
+  color: #ffff00;
   text-align: center;
   margin-bottom: 40px;
-
 }
 .olzhTPOP1P00uu1BtPrg {
   height: 100vh;
   padding: 50px;
+  padding-top: 25px;
 }
 
 .g0WK_ebGgoouhK_v04xO {
-  background: #e6fff2;
+  background: #3f45fa;
   position: relative;
   background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
   height: 100vh;
@@ -55,9 +57,9 @@ h2 {
 
 .t4dceVkNHQBJ_w8Gwcfg {
   border-radius: 1.125rem;
-  border: 4px solid #00058b;
-  background: #3f45fa;
-  box-shadow: 6px 6px 0px 0px #00058b;
+  border: 4px solid #c4c6fe;
+  background: #9093f9;
+  box-shadow: 6px 6px 0px 0px #b6b7ff;
   width: 13.625rem;
   height: 3.6875rem;
   color: #f1f3ff;
@@ -67,20 +69,20 @@ h2 {
   font-weight: 800;
   line-height: normal;
   margin-bottom: 20px;
-  transition: 0.3s ease-out;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 .t4dceVkNHQBJ_w8Gwcfg:hover {
   box-shadow: none;
-  background: #ffffe8;
-  color: #3f45fa;
-  border: 4px solid #3f45fa;
+  color: yellow;
+  border: none;
+  transform: scale(98%);
 }
 .t4dceVkNHQBJ_w8Gwcfg:active {
-  transform: scale(96%);
-  border: 4px solid 3f45fa;
+  transform: scale(95%);
+  color: yellow;
 }
-`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Header.module.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,oBAAoB;EACpB,iBAAiB;EACjB,eAAe;EACf,WAAW;EACX,cAAc;EACd,kBAAkB;EAClB,mBAAmB;;AAErB;AACA;EACE,aAAa;EACb,aAAa;AACf;;AAEA;EACE,mBAAmB;EACnB,kBAAkB;EAClB,yDAA6C;EAC7C,aAAa;AACf;;AAEA;EACE,uBAAuB;EACvB,yBAAyB;EACzB,mBAAmB;EACnB,mCAAmC;EACnC,gBAAgB;EAChB,iBAAiB;EACjB,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,yBAAyB;EACzB,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,mBAAmB;EACnB,cAAc;EACd,yBAAyB;AAC3B;AACA;EACE,qBAAqB;EACrB,wBAAwB;AAC1B","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n}\n\nh2 {\n  font-family: twinkle;\n  font-weight: bold;\n  font-size: 6rem;\n  margin: 0px;\n  color: #3f45fa;\n  text-align: center;\n  margin-bottom: 40px;\n\n}\n.container {\n  height: 100vh;\n  padding: 50px;\n}\n\n.noise {\n  background: #e6fff2;\n  position: relative;\n  background-image: url(../../assets/noisy.ico);\n  height: 100vh;\n}\n\n.AddBtn {\n  border-radius: 1.125rem;\n  border: 4px solid #00058b;\n  background: #3f45fa;\n  box-shadow: 6px 6px 0px 0px #00058b;\n  width: 13.625rem;\n  height: 3.6875rem;\n  color: #f1f3ff;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 20px;\n  transition: 0.3s ease-out;\n  cursor: pointer;\n}\n.AddBtn:hover {\n  box-shadow: none;\n  background: #ffffe8;\n  color: #3f45fa;\n  border: 4px solid #3f45fa;\n}\n.AddBtn:active {\n  transform: scale(96%);\n  border: 4px solid 3f45fa;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Header.module.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,oBAAoB;EACpB,iBAAiB;EACjB,eAAe;EACf,WAAW;EACX,cAAc;EACd,cAAc;EACd,cAAc;EACd,kBAAkB;EAClB,mBAAmB;AACrB;AACA;EACE,aAAa;EACb,aAAa;EACb,iBAAiB;AACnB;;AAEA;EACE,mBAAmB;EACnB,kBAAkB;EAClB,yDAAmD;EACnD,aAAa;AACf;;AAEA;EACE,uBAAuB;EACvB,yBAAyB;EACzB,mBAAmB;EACnB,mCAAmC;EACnC,gBAAgB;EAChB,iBAAiB;EACjB,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,4BAA4B;EAC5B,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,aAAa;EACb,YAAY;EACZ,qBAAqB;AACvB;AACA;EACE,qBAAqB;EACrB,aAAa;AACf","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n}\n\nh2 {\n  font-family: twinkle;\n  font-weight: bold;\n  font-size: 6rem;\n  margin: 0px;\n  color: #3f45fa;\n  color: #fefdec;\n  color: #ffff00;\n  text-align: center;\n  margin-bottom: 40px;\n}\n.container {\n  height: 100vh;\n  padding: 50px;\n  padding-top: 25px;\n}\n\n.noise {\n  background: #3f45fa;\n  position: relative;\n  background-image: url(../../assets/noise-light.ico);\n  height: 100vh;\n}\n\n.AddBtn {\n  border-radius: 1.125rem;\n  border: 4px solid #c4c6fe;\n  background: #9093f9;\n  box-shadow: 6px 6px 0px 0px #b6b7ff;\n  width: 13.625rem;\n  height: 3.6875rem;\n  color: #f1f3ff;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 20px;\n  transition: 0.2s ease-in-out;\n  cursor: pointer;\n}\n.AddBtn:hover {\n  box-shadow: none;\n  color: yellow;\n  border: none;\n  transform: scale(98%);\n}\n.AddBtn:active {\n  transform: scale(95%);\n  color: yellow;\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"container": `olzhTPOP1P00uu1BtPrg`,
@@ -127,7 +129,7 @@ ul{
     padding: 0px;
 }
 .Se9jBync3eRuRhcypTQR{
-    color: #37429b;
+    color: #3C3F9B;
     font-family: Inter;
     font-size: 1.625rem;
     font-style: normal;
@@ -136,13 +138,13 @@ ul{
 }
 
 .mDY8QqW7ovGdBwrIS7Io{
-    color: #37429b;
+    color: #3C3F9B;
     font-family: Inter;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-}`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Reviews.module.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,eAAe;IACf,yBAAyB;IACzB,qBAAqB;IACrB,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;AACA;IACI,cAAc;IACd,kBAAkB;IAClB,mBAAmB;IACnB,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,cAAc;IACd,kBAAkB;IAClB,iBAAiB;IACjB,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB","sourcesContent":[".item{\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    padding: 1.2rem;\n    background-color:#ffffe8 ;\n    border-radius: 1.5rem;\n    width: 95%;\n    box-sizing: border-box;\n}\n\nul{\n    margin: 0px;\n    padding: 0px;\n}\n.review{\n    color: #37429b;\n    font-family: Inter;\n    font-size: 1.625rem;\n    font-style: normal;\n    font-weight: 800;\n    line-height: normal;\n}\n\n.star{\n    color: #37429b;\n    font-family: Inter;\n    font-size: 1.6rem;\n    font-style: normal;\n    font-weight: 800;\n    line-height: normal;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Reviews.module.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,eAAe;IACf,yBAAyB;IACzB,qBAAqB;IACrB,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;AACA;IACI,cAAc;IACd,kBAAkB;IAClB,mBAAmB;IACnB,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,cAAc;IACd,kBAAkB;IAClB,iBAAiB;IACjB,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB","sourcesContent":[".item{\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    padding: 1.2rem;\n    background-color:#ffffe8 ;\n    border-radius: 1.5rem;\n    width: 95%;\n    box-sizing: border-box;\n}\n\nul{\n    margin: 0px;\n    padding: 0px;\n}\n.review{\n    color: #3C3F9B;\n    font-family: Inter;\n    font-size: 1.625rem;\n    font-style: normal;\n    font-weight: 800;\n    line-height: normal;\n}\n\n.star{\n    color: #3C3F9B;\n    font-family: Inter;\n    font-size: 1.6rem;\n    font-style: normal;\n    font-weight: 800;\n    line-height: normal;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"item": `R55UYRz2JnBh3s4JBEe0`,
@@ -185,41 +187,42 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@font-face {
 
 .Ga0xxht_nJ_n_XqoFgQg {
   border-radius: 1.125rem;
-  border: 4px solid #2b0061;
-  background: #37429b;
-  box-shadow: 6px 6px 0px 0px #2b0061;
-  width: 12rem;
+  border: 4px solid #c4c6fe;
+  background: #9093f9;
+  box-shadow: 6px 6px 0px 0px #b6b7ff;
+  width: 13.625rem;
   height: 3rem;
-  color: #e1e5ff;
+  color: #f1f3ff;
   font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  margin-bottom: 40px;
-  transition: 0.3s ease-out;
+  margin-bottom: 20px;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 .Ga0xxht_nJ_n_XqoFgQg:hover {
   box-shadow: none;
-  background: #37429b;
-  color: #fbfcff;
+  color: yellow;
+  border: none;
+  transform: scale(98%);
 }
 .Ga0xxht_nJ_n_XqoFgQg:active {
-  transform: scale(96%);
+  transform: scale(95%);
+  color: yellow;
 }
 
 .Nqebk0K1VQ_pt3T4I5zb {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
 }
-
 
 .rgqkolbUoEk5DeBKdVKQ {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .r0eydgAFWcna_8SlMB7E {
@@ -228,7 +231,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@font-face {
   width: 100%;
 }
 textarea {
-  color: #37429b;
+  color: #3c3f9b;
   font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;
@@ -248,7 +251,7 @@ textarea {
   resize: none;
 }
 textarea::placeholder {
-  color: #37429b;
+  color: #3c3f9b;
   font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;
@@ -271,7 +274,7 @@ textarea:focus {
   margin-right: 80px;
   justify-content: end;
 }
-`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/styles.module.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;EACpB,4CAAmC;AACrC;;AAEA;EACE,uBAAuB;EACvB,yBAAyB;EACzB,mBAAmB;EACnB,mCAAmC;EACnC,YAAY;EACZ,YAAY;EACZ,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,yBAAyB;EACzB,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,mBAAmB;EACnB,cAAc;AAChB;AACA;EACE,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;;AAEzB;;;AAGA;EACE,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,WAAW;AACb;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,qBAAqB;EACrB,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,kBAAkB;EAClB,sBAAsB;EACtB,qBAAqB;EACrB,oBAAoB;EACpB,aAAa;EACb,UAAU;EACV,YAAY;AACd;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,kBAAkB;EAClB,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,sBAAsB;EACtB,SAAS;EACT,kBAAkB;EAClB,oBAAoB;AACtB","sourcesContent":["@font-face {\n  font-family: twinkle;\n  src: url(./ASIX-FOUNDER-Italic.otf);\n}\n\n.Btn {\n  border-radius: 1.125rem;\n  border: 4px solid #2b0061;\n  background: #37429b;\n  box-shadow: 6px 6px 0px 0px #2b0061;\n  width: 12rem;\n  height: 3rem;\n  color: #e1e5ff;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 40px;\n  transition: 0.3s ease-out;\n  cursor: pointer;\n}\n.Btn:hover {\n  box-shadow: none;\n  background: #37429b;\n  color: #fbfcff;\n}\n.Btn:active {\n  transform: scale(96%);\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n\n}\n\n\n.stars {\n  display: flex;\n  flex-direction: row;\n}\n\n.inputContainer {\n  position: relative;\n  height: 12rem;\n  width: 100%;\n}\ntextarea {\n  color: #37429b;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  border-radius: 1.5rem;\n  background: #ffffe8;\n  border: none;\n  position: absolute;\n  padding: 10px;\n  padding-left: 14px;\n  box-sizing: border-box;\n  padding-bottom: 0.4em;\n  padding-right: 0.4em;\n  height: 10rem;\n  width: 95%;\n  resize: none;\n}\ntextarea::placeholder {\n  color: #37429b;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  position: absolute;\n  left: 12px;\n  box-sizing: border-box;\n}\n\ntextarea:focus {\n  outline: none;\n}\n\n.buttons {\n  display: flex;\n  flex-direction: row;\n  /* align-items: end; */\n  gap: 20px;\n  margin-right: 80px;\n  justify-content: end;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/styles.module.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;EACpB,4CAAmC;AACrC;;AAEA;EACE,uBAAuB;EACvB,yBAAyB;EACzB,mBAAmB;EACnB,mCAAmC;EACnC,gBAAgB;EAChB,YAAY;EACZ,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,4BAA4B;EAC5B,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,aAAa;EACb,YAAY;EACZ,qBAAqB;AACvB;AACA;EACE,qBAAqB;EACrB,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,WAAW;AACb;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,qBAAqB;EACrB,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,kBAAkB;EAClB,sBAAsB;EACtB,qBAAqB;EACrB,oBAAoB;EACpB,aAAa;EACb,UAAU;EACV,YAAY;AACd;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,kBAAkB;EAClB,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,sBAAsB;EACtB,SAAS;EACT,kBAAkB;EAClB,oBAAoB;AACtB","sourcesContent":["@font-face {\n  font-family: twinkle;\n  src: url(./ASIX-FOUNDER-Italic.otf);\n}\n\n.Btn {\n  border-radius: 1.125rem;\n  border: 4px solid #c4c6fe;\n  background: #9093f9;\n  box-shadow: 6px 6px 0px 0px #b6b7ff;\n  width: 13.625rem;\n  height: 3rem;\n  color: #f1f3ff;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 20px;\n  transition: 0.2s ease-in-out;\n  cursor: pointer;\n}\n.Btn:hover {\n  box-shadow: none;\n  color: yellow;\n  border: none;\n  transform: scale(98%);\n}\n.Btn:active {\n  transform: scale(95%);\n  color: yellow;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.stars {\n  display: flex;\n  flex-direction: row;\n  margin-bottom: 20px;\n}\n\n.inputContainer {\n  position: relative;\n  height: 12rem;\n  width: 100%;\n}\ntextarea {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  border-radius: 1.5rem;\n  background: #ffffe8;\n  border: none;\n  position: absolute;\n  padding: 10px;\n  padding-left: 14px;\n  box-sizing: border-box;\n  padding-bottom: 0.4em;\n  padding-right: 0.4em;\n  height: 10rem;\n  width: 95%;\n  resize: none;\n}\ntextarea::placeholder {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  position: absolute;\n  left: 12px;\n  box-sizing: border-box;\n}\n\ntextarea:focus {\n  outline: none;\n}\n\n.buttons {\n  display: flex;\n  flex-direction: row;\n  /* align-items: end; */\n  gap: 20px;\n  margin-right: 80px;\n  justify-content: end;\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Btn": `Ga0xxht_nJ_n_XqoFgQg`,
@@ -39986,8 +39989,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const colors = {
-    orange: "#FFBA5A",
-    grey: "#a9a9a9",
+    orange: "#ffff00",
+    grey: "#FEFDEC",
 };
 function Form() {
     const [currentValue, setCurrentValue] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
@@ -40080,13 +40083,13 @@ function Reviews() {
 
 /***/ }),
 
-/***/ "./src/dCritique_frontend/assets/noisy.ico":
-/*!*************************************************!*\
-  !*** ./src/dCritique_frontend/assets/noisy.ico ***!
-  \*************************************************/
+/***/ "./src/dCritique_frontend/assets/noise-light.ico":
+/*!*******************************************************!*\
+  !*** ./src/dCritique_frontend/assets/noise-light.ico ***!
+  \*******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "f7eb886049978781d63d.ico";
+module.exports = __webpack_require__.p + "016d9d11b140dbde6df8.ico";
 
 /***/ }),
 
