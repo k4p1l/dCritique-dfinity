@@ -16,36 +16,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/noisy.ico */ "./src/dCritique_frontend/assets/noisy.ico"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `h2 {
+___CSS_LOADER_EXPORT___.push([module.id, `* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
   font-family: twinkle;
   font-weight: bold;
   font-size: 6rem;
   margin: 0px;
-  color: #37429b;
+  color: #3f45fa;
   text-align: center;
   margin-bottom: 40px;
+
 }
 .olzhTPOP1P00uu1BtPrg {
-  background: #f4fef8;
-  /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
+  height: 100vh;
+  padding: 50px;
+}
+
+.g0WK_ebGgoouhK_v04xO {
+  background: #e6fff2;
+  position: relative;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
   height: 100vh;
 }
 
 .t4dceVkNHQBJ_w8Gwcfg {
   border-radius: 1.125rem;
-  border: 4px solid #2b0061;
-  background: #37429b;
-  box-shadow: 6px 6px 0px 0px #2b0061;
+  border: 4px solid #00058b;
+  background: #3f45fa;
+  box-shadow: 6px 6px 0px 0px #00058b;
   width: 13.625rem;
   height: 3.6875rem;
-  color: #e1e5ff;
+  color: #f1f3ff;
   font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;
@@ -57,16 +72,19 @@ ___CSS_LOADER_EXPORT___.push([module.id, `h2 {
 }
 .t4dceVkNHQBJ_w8Gwcfg:hover {
   box-shadow: none;
-  background: #37429b;
-  color: #fbfcff;
+  background: #ffffe8;
+  color: #3f45fa;
+  border: 4px solid #3f45fa;
 }
 .t4dceVkNHQBJ_w8Gwcfg:active {
   transform: scale(96%);
+  border: 4px solid 3f45fa;
 }
-`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Header.module.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;EACpB,iBAAiB;EACjB,eAAe;EACf,WAAW;EACX,cAAc;EACd,kBAAkB;EAClB,mBAAmB;AACrB;AACA;EACE,mBAAmB;EACnB;;8BAE4B;EAC5B,aAAa;AACf;;AAEA;EACE,uBAAuB;EACvB,yBAAyB;EACzB,mBAAmB;EACnB,mCAAmC;EACnC,gBAAgB;EAChB,iBAAiB;EACjB,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,yBAAyB;EACzB,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,mBAAmB;EACnB,cAAc;AAChB;AACA;EACE,qBAAqB;AACvB","sourcesContent":["h2 {\n  font-family: twinkle;\n  font-weight: bold;\n  font-size: 6rem;\n  margin: 0px;\n  color: #37429b;\n  text-align: center;\n  margin-bottom: 40px;\n}\n.container {\n  background: #f4fef8;\n  /* display: flex;\n    flex-direction: column;\n    align-items: flex-start; */\n  height: 100vh;\n}\n\n.AddBtn {\n  border-radius: 1.125rem;\n  border: 4px solid #2b0061;\n  background: #37429b;\n  box-shadow: 6px 6px 0px 0px #2b0061;\n  width: 13.625rem;\n  height: 3.6875rem;\n  color: #e1e5ff;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 20px;\n  transition: 0.3s ease-out;\n  cursor: pointer;\n}\n.AddBtn:hover {\n  box-shadow: none;\n  background: #37429b;\n  color: #fbfcff;\n}\n.AddBtn:active {\n  transform: scale(96%);\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Header.module.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,oBAAoB;EACpB,iBAAiB;EACjB,eAAe;EACf,WAAW;EACX,cAAc;EACd,kBAAkB;EAClB,mBAAmB;;AAErB;AACA;EACE,aAAa;EACb,aAAa;AACf;;AAEA;EACE,mBAAmB;EACnB,kBAAkB;EAClB,yDAA6C;EAC7C,aAAa;AACf;;AAEA;EACE,uBAAuB;EACvB,yBAAyB;EACzB,mBAAmB;EACnB,mCAAmC;EACnC,gBAAgB;EAChB,iBAAiB;EACjB,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,yBAAyB;EACzB,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,mBAAmB;EACnB,cAAc;EACd,yBAAyB;AAC3B;AACA;EACE,qBAAqB;EACrB,wBAAwB;AAC1B","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n}\n\nh2 {\n  font-family: twinkle;\n  font-weight: bold;\n  font-size: 6rem;\n  margin: 0px;\n  color: #3f45fa;\n  text-align: center;\n  margin-bottom: 40px;\n\n}\n.container {\n  height: 100vh;\n  padding: 50px;\n}\n\n.noise {\n  background: #e6fff2;\n  position: relative;\n  background-image: url(../../assets/noisy.ico);\n  height: 100vh;\n}\n\n.AddBtn {\n  border-radius: 1.125rem;\n  border: 4px solid #00058b;\n  background: #3f45fa;\n  box-shadow: 6px 6px 0px 0px #00058b;\n  width: 13.625rem;\n  height: 3.6875rem;\n  color: #f1f3ff;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 20px;\n  transition: 0.3s ease-out;\n  cursor: pointer;\n}\n.AddBtn:hover {\n  box-shadow: none;\n  background: #ffffe8;\n  color: #3f45fa;\n  border: 4px solid #3f45fa;\n}\n.AddBtn:active {\n  transform: scale(96%);\n  border: 4px solid 3f45fa;\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"container": `olzhTPOP1P00uu1BtPrg`,
+	"noise": `g0WK_ebGgoouhK_v04xO`,
 	"AddBtn": `t4dceVkNHQBJ_w8Gwcfg`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
@@ -100,6 +118,8 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.R55UYRz2JnBh3s4JBEe0{
     padding: 1.2rem;
     background-color:#ffffe8 ;
     border-radius: 1.5rem;
+    width: 95%;
+    box-sizing: border-box;
 }
 
 ul{
@@ -122,7 +142,7 @@ ul{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-}`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Reviews.module.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,eAAe;IACf,yBAAyB;IACzB,qBAAqB;AACzB;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;AACA;IACI,cAAc;IACd,kBAAkB;IAClB,mBAAmB;IACnB,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,cAAc;IACd,kBAAkB;IAClB,iBAAiB;IACjB,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB","sourcesContent":[".item{\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    padding: 1.2rem;\n    background-color:#ffffe8 ;\n    border-radius: 1.5rem;\n}\n\nul{\n    margin: 0px;\n    padding: 0px;\n}\n.review{\n    color: #37429b;\n    font-family: Inter;\n    font-size: 1.625rem;\n    font-style: normal;\n    font-weight: 800;\n    line-height: normal;\n}\n\n.star{\n    color: #37429b;\n    font-family: Inter;\n    font-size: 1.6rem;\n    font-style: normal;\n    font-weight: 800;\n    line-height: normal;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Reviews.module.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,eAAe;IACf,yBAAyB;IACzB,qBAAqB;IACrB,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;AACA;IACI,cAAc;IACd,kBAAkB;IAClB,mBAAmB;IACnB,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,cAAc;IACd,kBAAkB;IAClB,iBAAiB;IACjB,kBAAkB;IAClB,gBAAgB;IAChB,mBAAmB;AACvB","sourcesContent":[".item{\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between;\n    padding: 1.2rem;\n    background-color:#ffffe8 ;\n    border-radius: 1.5rem;\n    width: 95%;\n    box-sizing: border-box;\n}\n\nul{\n    margin: 0px;\n    padding: 0px;\n}\n.review{\n    color: #37429b;\n    font-family: Inter;\n    font-size: 1.625rem;\n    font-style: normal;\n    font-weight: 800;\n    line-height: normal;\n}\n\n.star{\n    color: #37429b;\n    font-family: Inter;\n    font-size: 1.6rem;\n    font-style: normal;\n    font-weight: 800;\n    line-height: normal;\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"item": `R55UYRz2JnBh3s4JBEe0`,
@@ -193,7 +213,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@font-face {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
 }
+
+
 .rgqkolbUoEk5DeBKdVKQ {
   display: flex;
   flex-direction: row;
@@ -248,7 +271,7 @@ textarea:focus {
   margin-right: 80px;
   justify-content: end;
 }
-`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/styles.module.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;EACpB,4CAAmC;AACrC;;AAEA;EACE,uBAAuB;EACvB,yBAAyB;EACzB,mBAAmB;EACnB,mCAAmC;EACnC,YAAY;EACZ,YAAY;EACZ,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,yBAAyB;EACzB,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,mBAAmB;EACnB,cAAc;AAChB;AACA;EACE,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;AACzB;AACA;EACE,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,WAAW;AACb;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,qBAAqB;EACrB,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,kBAAkB;EAClB,sBAAsB;EACtB,qBAAqB;EACrB,oBAAoB;EACpB,aAAa;EACb,UAAU;EACV,YAAY;AACd;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,kBAAkB;EAClB,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,sBAAsB;EACtB,SAAS;EACT,kBAAkB;EAClB,oBAAoB;AACtB","sourcesContent":["@font-face {\n  font-family: twinkle;\n  src: url(./ASIX-FOUNDER-Italic.otf);\n}\n\n.Btn {\n  border-radius: 1.125rem;\n  border: 4px solid #2b0061;\n  background: #37429b;\n  box-shadow: 6px 6px 0px 0px #2b0061;\n  width: 12rem;\n  height: 3rem;\n  color: #e1e5ff;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 40px;\n  transition: 0.3s ease-out;\n  cursor: pointer;\n}\n.Btn:hover {\n  box-shadow: none;\n  background: #37429b;\n  color: #fbfcff;\n}\n.Btn:active {\n  transform: scale(96%);\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n.stars {\n  display: flex;\n  flex-direction: row;\n}\n\n.inputContainer {\n  position: relative;\n  height: 12rem;\n  width: 100%;\n}\ntextarea {\n  color: #37429b;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  border-radius: 1.5rem;\n  background: #ffffe8;\n  border: none;\n  position: absolute;\n  padding: 10px;\n  padding-left: 14px;\n  box-sizing: border-box;\n  padding-bottom: 0.4em;\n  padding-right: 0.4em;\n  height: 10rem;\n  width: 95%;\n  resize: none;\n}\ntextarea::placeholder {\n  color: #37429b;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  position: absolute;\n  left: 12px;\n  box-sizing: border-box;\n}\n\ntextarea:focus {\n  outline: none;\n}\n\n.buttons {\n  display: flex;\n  flex-direction: row;\n  /* align-items: end; */\n  gap: 20px;\n  margin-right: 80px;\n  justify-content: end;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/styles.module.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;EACpB,4CAAmC;AACrC;;AAEA;EACE,uBAAuB;EACvB,yBAAyB;EACzB,mBAAmB;EACnB,mCAAmC;EACnC,YAAY;EACZ,YAAY;EACZ,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,mBAAmB;EACnB,yBAAyB;EACzB,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,mBAAmB;EACnB,cAAc;AAChB;AACA;EACE,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;;AAEzB;;;AAGA;EACE,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,WAAW;AACb;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,qBAAqB;EACrB,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,kBAAkB;EAClB,sBAAsB;EACtB,qBAAqB;EACrB,oBAAoB;EACpB,aAAa;EACb,UAAU;EACV,YAAY;AACd;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,kBAAkB;EAClB,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,sBAAsB;EACtB,SAAS;EACT,kBAAkB;EAClB,oBAAoB;AACtB","sourcesContent":["@font-face {\n  font-family: twinkle;\n  src: url(./ASIX-FOUNDER-Italic.otf);\n}\n\n.Btn {\n  border-radius: 1.125rem;\n  border: 4px solid #2b0061;\n  background: #37429b;\n  box-shadow: 6px 6px 0px 0px #2b0061;\n  width: 12rem;\n  height: 3rem;\n  color: #e1e5ff;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 40px;\n  transition: 0.3s ease-out;\n  cursor: pointer;\n}\n.Btn:hover {\n  box-shadow: none;\n  background: #37429b;\n  color: #fbfcff;\n}\n.Btn:active {\n  transform: scale(96%);\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n\n}\n\n\n.stars {\n  display: flex;\n  flex-direction: row;\n}\n\n.inputContainer {\n  position: relative;\n  height: 12rem;\n  width: 100%;\n}\ntextarea {\n  color: #37429b;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  border-radius: 1.5rem;\n  background: #ffffe8;\n  border: none;\n  position: absolute;\n  padding: 10px;\n  padding-left: 14px;\n  box-sizing: border-box;\n  padding-bottom: 0.4em;\n  padding-right: 0.4em;\n  height: 10rem;\n  width: 95%;\n  resize: none;\n}\ntextarea::placeholder {\n  color: #37429b;\n  font-family: Inter;\n  font-size: 1.625rem;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  position: absolute;\n  left: 12px;\n  box-sizing: border-box;\n}\n\ntextarea:focus {\n  outline: none;\n}\n\n.buttons {\n  display: flex;\n  flex-direction: row;\n  /* align-items: end; */\n  gap: 20px;\n  margin-right: 80px;\n  justify-content: end;\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Btn": `Ga0xxht_nJ_n_XqoFgQg`,
@@ -257,32 +280,6 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"inputContainer": `r0eydgAFWcna_8SlMB7E`,
 	"buttons": `QXEcGX40y4jHBB5gilsC`
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/dCritique_frontend/src/index.css":
-/*!************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/dCritique_frontend/src/index.css ***!
-  \************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, ``, "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
-// Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
@@ -39680,60 +39677,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./src/dCritique_frontend/src/index.css":
-/*!**********************************************!*\
-  !*** ./src/dCritique_frontend/src/index.css ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./index.css */ "./node_modules/css-loader/dist/cjs.js!./src/dCritique_frontend/src/index.css");
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
-
-      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
-    
-options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
-
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
-
-
-/***/ }),
-
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -40100,7 +40043,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Header() {
     const [showForm, setShowForm] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: _Styles_Header_module_css__WEBPACK_IMPORTED_MODULE_3__["default"].container },
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: `${_Styles_Header_module_css__WEBPACK_IMPORTED_MODULE_3__["default"].container} ${_Styles_Header_module_css__WEBPACK_IMPORTED_MODULE_3__["default"].noise}` },
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, " dCritique "),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: _Styles_Header_module_css__WEBPACK_IMPORTED_MODULE_3__["default"].AddBtn, onClick: () => setShowForm((show) => !show) }, showForm ? "Close" : "Add a Review"),
         !showForm ? "" : react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Form__WEBPACK_IMPORTED_MODULE_1__.Form, null),
@@ -40134,6 +40077,16 @@ function Reviews() {
 }
 
 
+
+/***/ }),
+
+/***/ "./src/dCritique_frontend/assets/noisy.ico":
+/*!*************************************************!*\
+  !*** ./src/dCritique_frontend/assets/noisy.ico ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "f7eb886049978781d63d.ico";
 
 /***/ }),
 
@@ -40306,13 +40259,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App */ "./src/dCritique_frontend/src/App.jsx");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/dCritique_frontend/src/index.css");
-/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 
 
 
-
-const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_3__.createRoot)(document.getElementById("root"));
+const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(document.getElementById("root"));
 root.render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_App__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 
 })();

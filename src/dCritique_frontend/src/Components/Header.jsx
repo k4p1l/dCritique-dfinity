@@ -5,7 +5,7 @@ import h from "../Styles/Header.module.css";
 function Header() {
   const [showForm, setShowForm] = useState(false);
   return (
-    <div className={h.container}>
+    <div className={`${h.container} ${h.noise}`}>
       <h2> dCritique </h2>
       <button className={h.AddBtn} onClick={() => setShowForm((show) => !show)}>
         {showForm ? "Close" : "Add a Review"}

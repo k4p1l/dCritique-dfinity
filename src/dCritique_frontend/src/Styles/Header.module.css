@@ -1,42 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   font-family: twinkle;
   font-weight: bold;
   font-size: 6rem;
   margin: 0px;
-  color: #37429b;
+  color: #3f45fa;
+  color: #fefdec;
+  color: #ffff00;
   text-align: center;
   margin-bottom: 40px;
 }
 .container {
-  background: #f4fef8;
-  /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
+  height: 100vh;
+  padding: 50px;
+  padding-top: 25px;
+}
+
+.noise {
+  background: #3f45fa;
+  position: relative;
+  background-image: url(../../assets/noise-light.ico);
   height: 100vh;
 }
 
 .AddBtn {
   border-radius: 1.125rem;
-  border: 4px solid #2b0061;
-  background: #37429b;
-  box-shadow: 6px 6px 0px 0px #2b0061;
+  border: 4px solid #c4c6fe;
+  background: #9093f9;
+  box-shadow: 6px 6px 0px 0px #b6b7ff;
   width: 13.625rem;
   height: 3.6875rem;
-  color: #e1e5ff;
+  color: #f1f3ff;
   font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   margin-bottom: 20px;
-  transition: 0.3s ease-out;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 .AddBtn:hover {
   box-shadow: none;
-  background: #37429b;
-  color: #fbfcff;
+  color: yellow;
+  border: none;
+  transform: scale(98%);
 }
 .AddBtn:active {
-  transform: scale(96%);
+  transform: scale(95%);
+  color: yellow;
 }

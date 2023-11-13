@@ -5,28 +5,30 @@
 
 .Btn {
   border-radius: 1.125rem;
-  border: 4px solid #2b0061;
-  background: #37429b;
-  box-shadow: 6px 6px 0px 0px #2b0061;
-  width: 12rem;
+  border: 4px solid #c4c6fe;
+  background: #9093f9;
+  box-shadow: 6px 6px 0px 0px #b6b7ff;
+  width: 13.625rem;
   height: 3rem;
-  color: #e1e5ff;
+  color: #f1f3ff;
   font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  margin-bottom: 40px;
-  transition: 0.3s ease-out;
+  margin-bottom: 20px;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 .Btn:hover {
   box-shadow: none;
-  background: #37429b;
-  color: #fbfcff;
+  color: yellow;
+  border: none;
+  transform: scale(98%);
 }
 .Btn:active {
-  transform: scale(96%);
+  transform: scale(95%);
+  color: yellow;
 }
 
 .header {
@@ -34,9 +36,11 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .stars {
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .inputContainer {
@@ -45,7 +49,7 @@
   width: 100%;
 }
 textarea {
-  color: #37429b;
+  color: #3c3f9b;
   font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;
@@ -65,7 +69,7 @@ textarea {
   resize: none;
 }
 textarea::placeholder {
-  color: #37429b;
+  color: #3c3f9b;
   font-family: Inter;
   font-size: 1.625rem;
   font-style: normal;

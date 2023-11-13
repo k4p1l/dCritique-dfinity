@@ -3,8 +3,8 @@ import { IoStarSharp } from "react-icons/io5";
 import f from "../Styles/styles.module.css";
 
 const colors = {
-  orange: "#FFBA5A",
-  grey: "#a9a9a9",
+  orange: "#ffff00",
+  grey: "#FEFDEC",
 };
 
 function Form() {
