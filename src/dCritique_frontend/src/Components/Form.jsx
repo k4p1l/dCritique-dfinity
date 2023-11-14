@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { IoStarSharp } from "react-icons/io5";
-import f from "../Styles/styles.module.css";
+import f from "../Styles/Form.module.css";
 
 const colors = {
   orange: "#ffff00",
@@ -48,6 +48,10 @@ function Form() {
             );
           })}
         </div>
+        <div className={f.buttons}>
+          <button className={f.Btn}>Upload a Photo</button>
+        </div>
+
         <div className={f.inputContainer}>
           <textarea
             className={f.input}

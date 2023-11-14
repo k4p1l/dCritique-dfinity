@@ -11,7 +11,6 @@ h2 {
   color: #ffff00;
   text-align: center;
   margin-bottom: 4vw;
-
 }
 
 h2 svg {
@@ -23,7 +22,8 @@ h2 svg {
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   width: auto;
   padding: 3vw;
   padding-top: 1.3vw;
