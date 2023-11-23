@@ -20475,10 +20475,11 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@font-face {
 
 .aaJp8WMO9helcvcOJxpg {
   position: relative;
-  height: 12vw;
+  min-height: 28vh;
+
   width: 100%;
 }
-textarea {
+.aaJp8WMO9helcvcOJxpg textarea {
   color: #3c3f9b;
   font-family: Inter;
   font-size: 1.625vw;
@@ -20494,8 +20495,9 @@ textarea {
   box-sizing: border-box;
   padding-bottom: 0.4vw;
   padding-right: 0.4vw;
-  height: 10vw;
   width: 98%;
+  min-height: 24vh;
+  overflow: auto;
   resize: none;
 }
 textarea::placeholder {
@@ -20521,7 +20523,7 @@ textarea:focus {
   margin-right: 3vw;
   justify-content: end;
 }
-`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Form.module.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;EACpB,4CAAmC;AACrC;;AAEA;EACE,sBAAsB;EACtB,2BAA2B;EAC3B,mBAAmB;EACnB,uCAAuC;EACvC,eAAe;EACf,aAAa;EACb,cAAc;EACd,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,oBAAoB;EACpB,4BAA4B;EAC5B,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,cAAc;EACd,YAAY;EACZ,qBAAqB;AACvB;AACA;EACE,qBAAqB;EACrB,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,YAAY;EACZ,WAAW;AACb;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,oBAAoB;EACpB,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,YAAY;EACZ,mBAAmB;EACnB,sBAAsB;EACtB,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;EACZ,UAAU;EACV,YAAY;AACd;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,kBAAkB;EAClB,SAAS;EACT,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,QAAQ;EACR,iBAAiB;EACjB,oBAAoB;AACtB","sourcesContent":["@font-face {\n  font-family: twinkle;\n  src: url(./ASIX-FOUNDER-Italic.otf);\n}\n\n.Btn {\n  border-radius: 1.125vw;\n  border: 0.2vw solid #c4c6fe;\n  background: #9093f9;\n  box-shadow: 0.4vw 0.4vw 0vw 0vw #b6b7ff;\n  width: 13.625vw;\n  height: 3.5vw;\n  color: #f1f3ff;\n  font-family: Inter;\n  font-size: 1.625vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 1.8vw;\n  transition: 0.2s ease-in-out;\n  cursor: pointer;\n}\n.Btn:hover {\n  box-shadow: none;\n  color: #ffff00;\n  border: none;\n  transform: scale(98%);\n}\n.Btn:active {\n  transform: scale(95%);\n  color: yellow;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.stars {\n  display: flex;\n  flex-direction: row;\n  margin-bottom: 1vw;\n}\n\n.inputContainer {\n  position: relative;\n  height: 12vw;\n  width: 100%;\n}\ntextarea {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.625vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  border-radius: 1.5vw;\n  background: #fdfddd;\n  border: none;\n  position: absolute;\n  padding: 1vw;\n  padding-left: 1.2vw;\n  box-sizing: border-box;\n  padding-bottom: 0.4vw;\n  padding-right: 0.4vw;\n  height: 10vw;\n  width: 98%;\n  resize: none;\n}\ntextarea::placeholder {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.625vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  position: absolute;\n  left: 1vw;\n  box-sizing: border-box;\n}\n\ntextarea:focus {\n  outline: none;\n}\n\n.buttons {\n  display: flex;\n  flex-direction: row;\n  gap: 2vw;\n  margin-right: 3vw;\n  justify-content: end;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Form.module.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;EACpB,4CAAmC;AACrC;;AAEA;EACE,sBAAsB;EACtB,2BAA2B;EAC3B,mBAAmB;EACnB,uCAAuC;EACvC,eAAe;EACf,aAAa;EACb,cAAc;EACd,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,oBAAoB;EACpB,4BAA4B;EAC5B,eAAe;AACjB;AACA;EACE,gBAAgB;EAChB,cAAc;EACd,YAAY;EACZ,qBAAqB;AACvB;AACA;EACE,qBAAqB;EACrB,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;;EAEhB,WAAW;AACb;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,oBAAoB;EACpB,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,YAAY;EACZ,mBAAmB;EACnB,sBAAsB;EACtB,qBAAqB;EACrB,oBAAoB;EACpB,UAAU;EACV,gBAAgB;EAChB,cAAc;EACd,YAAY;AACd;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,kBAAkB;EAClB,SAAS;EACT,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,QAAQ;EACR,iBAAiB;EACjB,oBAAoB;AACtB","sourcesContent":["@font-face {\n  font-family: twinkle;\n  src: url(./ASIX-FOUNDER-Italic.otf);\n}\n\n.Btn {\n  border-radius: 1.125vw;\n  border: 0.2vw solid #c4c6fe;\n  background: #9093f9;\n  box-shadow: 0.4vw 0.4vw 0vw 0vw #b6b7ff;\n  width: 13.625vw;\n  height: 3.5vw;\n  color: #f1f3ff;\n  font-family: Inter;\n  font-size: 1.625vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  margin-bottom: 1.8vw;\n  transition: 0.2s ease-in-out;\n  cursor: pointer;\n}\n.Btn:hover {\n  box-shadow: none;\n  color: #ffff00;\n  border: none;\n  transform: scale(98%);\n}\n.Btn:active {\n  transform: scale(95%);\n  color: yellow;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.stars {\n  display: flex;\n  flex-direction: row;\n  margin-bottom: 1vw;\n}\n\n.inputContainer {\n  position: relative;\n  min-height: 28vh;\n\n  width: 100%;\n}\n.inputContainer textarea {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.625vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  border-radius: 1.5vw;\n  background: #fdfddd;\n  border: none;\n  position: absolute;\n  padding: 1vw;\n  padding-left: 1.2vw;\n  box-sizing: border-box;\n  padding-bottom: 0.4vw;\n  padding-right: 0.4vw;\n  width: 98%;\n  min-height: 24vh;\n  overflow: auto;\n  resize: none;\n}\ntextarea::placeholder {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.625vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  position: absolute;\n  left: 1vw;\n  box-sizing: border-box;\n}\n\ntextarea:focus {\n  outline: none;\n}\n\n.buttons {\n  display: flex;\n  flex-direction: row;\n  gap: 2vw;\n  margin-right: 3vw;\n  justify-content: end;\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"Btn": `MewwRFV2VBolKZ45ZbUr`,
@@ -20681,8 +20683,8 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lds-hourglass {
   margin: 8px;
   z-index: 100;
   box-sizing: border-box;
-  border: 32px solid #000000;
-  border-color: #000000 transparent #000000 transparent;
+  border: 32px solid #ffff00;
+  border-color: #ffff00 transparent #3f45fa transparent;
   animation: lds-hourglass 1.2s infinite;
   /* mix-blend-mode:multiply; */
 }
@@ -20699,7 +20701,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.lds-hourglass {
     transform: rotate(1800deg);
   }
 }
-`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Loader.css"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,WAAW;EACX,YAAY;EACZ,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,gCAAgC;EAChC;AACF;AACA;EACE,YAAY;EACZ,cAAc;EACd,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,WAAW;EACX,YAAY;EACZ,sBAAsB;EACtB,0BAA0B;EAC1B,qDAAqD;EACrD,sCAAsC;EACtC,6BAA6B;AAC/B;AACA;EACE;IACE,oBAAoB;IACpB,iEAAiE;EACnE;EACA;IACE,yBAAyB;IACzB,8DAA8D;EAChE;EACA;IACE,0BAA0B;EAC5B;AACF","sourcesContent":[".lds-hourglass {\n  display: inline-block;\n  width: 80px;\n  height: 80px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index:100\n}\n.lds-hourglass:after {\n  content: \" \";\n  display: block;\n  border-radius: 50%;\n  width: 0;\n  height: 0;\n  margin: 8px;\n  z-index: 100;\n  box-sizing: border-box;\n  border: 32px solid #000000;\n  border-color: #000000 transparent #000000 transparent;\n  animation: lds-hourglass 1.2s infinite;\n  /* mix-blend-mode:multiply; */\n}\n@keyframes lds-hourglass {\n  0% {\n    transform: rotate(0);\n    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);\n  }\n  50% {\n    transform: rotate(900deg);\n    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);\n  }\n  100% {\n    transform: rotate(1800deg);\n  }\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Loader.css"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,WAAW;EACX,YAAY;EACZ,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,gCAAgC;EAChC;AACF;AACA;EACE,YAAY;EACZ,cAAc;EACd,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,WAAW;EACX,YAAY;EACZ,sBAAsB;EACtB,0BAA0B;EAC1B,qDAAqD;EACrD,sCAAsC;EACtC,6BAA6B;AAC/B;AACA;EACE;IACE,oBAAoB;IACpB,iEAAiE;EACnE;EACA;IACE,yBAAyB;IACzB,8DAA8D;EAChE;EACA;IACE,0BAA0B;EAC5B;AACF","sourcesContent":[".lds-hourglass {\n  display: inline-block;\n  width: 80px;\n  height: 80px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index:100\n}\n.lds-hourglass:after {\n  content: \" \";\n  display: block;\n  border-radius: 50%;\n  width: 0;\n  height: 0;\n  margin: 8px;\n  z-index: 100;\n  box-sizing: border-box;\n  border: 32px solid #ffff00;\n  border-color: #ffff00 transparent #3f45fa transparent;\n  animation: lds-hourglass 1.2s infinite;\n  /* mix-blend-mode:multiply; */\n}\n@keyframes lds-hourglass {\n  0% {\n    transform: rotate(0);\n    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);\n  }\n  50% {\n    transform: rotate(900deg);\n    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);\n  }\n  100% {\n    transform: rotate(1800deg);\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -21045,21 +21047,6 @@ module.exports = function (item) {
   }
   return [content].join("\n");
 };
-
-/***/ }),
-
-/***/ "./src/dCritique_frontend/assets/rev.png":
-/*!***********************************************!*\
-  !*** ./src/dCritique_frontend/assets/rev.png ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "224ee9398c5cf51a8d96e75ff5ce4c15.png");
 
 /***/ }),
 
@@ -64478,9 +64465,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function App() {
     const [showForm, setShowForm] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
-    return (
-    // <Header/>
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.BrowserRouter, null,
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Routes, null,
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, { path: "/", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Header__WEBPACK_IMPORTED_MODULE_1__.Header, null) }),
@@ -64580,12 +64565,12 @@ function Form() {
                     } }));
             })),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: _Styles_Form_module_css__WEBPACK_IMPORTED_MODULE_2__["default"].buttons },
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: _Styles_Form_module_css__WEBPACK_IMPORTED_MODULE_2__["default"].Btn, onClick: onSubmit }, "Upload a Photo"),
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", { type: "file", 
                     // accept=".pdf, .doc, .docx"
-                    onChange: handleFileChange }),
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: _Styles_Form_module_css__WEBPACK_IMPORTED_MODULE_2__["default"].Btn, onClick: onSubmit }, "Upload a Photo")),
+                    onChange: handleFileChange })),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: _Styles_Form_module_css__WEBPACK_IMPORTED_MODULE_2__["default"].inputContainer },
-                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("textarea", { id: "review", className: _Styles_Form_module_css__WEBPACK_IMPORTED_MODULE_2__["default"].input, placeholder: "Share your Review..." }))),
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("textarea", { id: "review", style: { whiteSpace: "pre-line" }, className: _Styles_Form_module_css__WEBPACK_IMPORTED_MODULE_2__["default"].input, placeholder: "Share your Review..." }))),
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: _Styles_Form_module_css__WEBPACK_IMPORTED_MODULE_2__["default"].buttons },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { onClick: onSubmit, className: _Styles_Form_module_css__WEBPACK_IMPORTED_MODULE_2__["default"].Btn }, "Submit"))));
 }
@@ -64673,25 +64658,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Styles/Reviews.module.css */ "./src/dCritique_frontend/src/Styles/Reviews.module.css");
-/* harmony import */ var _assets_rev_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/rev.png */ "./src/dCritique_frontend/assets/rev.png");
-/* harmony import */ var _declarations_dCritique_backend_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../declarations/dCritique_backend/index */ "./src/declarations/dCritique_backend/index.js");
-
+/* harmony import */ var _declarations_dCritique_backend_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../declarations/dCritique_backend/index */ "./src/declarations/dCritique_backend/index.js");
 
 
 
 function Reviews() {
     const [data, setData] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
     const fetchData = async () => {
-        const res = await _declarations_dCritique_backend_index__WEBPACK_IMPORTED_MODULE_3__.dCritique_backend.getReview();
+        const res = await _declarations_dCritique_backend_index__WEBPACK_IMPORTED_MODULE_2__.dCritique_backend.getReview();
         setData(res);
         console.log(res);
     };
     (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
         fetchData();
     }, []);
-    // useEffect(() => {
-    //   console.log(data);
-    // }, [data]);
     const reviews = data.map((a) => (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null,
         react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", { className: _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].item },
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].review },
@@ -64701,21 +64681,7 @@ function Reviews() {
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", { className: _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].star },
                 a.stars,
                 "\u2B50")))));
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, reviews)
-    // <ul>
-    //   <li className={r.item}>
-    //     <div className={r.review}>
-    //       <div className={r.imgContainer}>
-    //         <img className={r.image} src={rev} alt="rev" />
-    //       </div>
-    //       <span className={r.text}>
-    //         The balisong was quite nice than expected....
-    //       </span>
-    //     </div>
-    //     <span className={r.star}>5⭐</span>
-    //   </li>
-    // </ul>
-    );
+    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, reviews));
 }
 
 

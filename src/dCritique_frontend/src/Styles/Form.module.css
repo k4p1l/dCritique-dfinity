@@ -45,10 +45,11 @@
 
 .inputContainer {
   position: relative;
-  height: 12vw;
+  min-height: 28vh;
+
   width: 100%;
 }
-textarea {
+.inputContainer textarea {
   color: #3c3f9b;
   font-family: Inter;
   font-size: 1.625vw;
@@ -64,8 +65,9 @@ textarea {
   box-sizing: border-box;
   padding-bottom: 0.4vw;
   padding-right: 0.4vw;
-  height: 10vw;
   width: 98%;
+  min-height: 24vh;
+  overflow: auto;
   resize: none;
 }
 textarea::placeholder {
