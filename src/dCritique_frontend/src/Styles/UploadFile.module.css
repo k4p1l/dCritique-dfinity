@@ -46,7 +46,7 @@ input[type="file"] {
   background-color: #0056b3;
 } */
 
-.uploaded-files h2 {
+.uploaded_files h2 {
   font-size: 18px;
   margin-bottom: 10px;
 }

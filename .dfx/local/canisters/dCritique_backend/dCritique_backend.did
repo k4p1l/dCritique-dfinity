@@ -1,18 +1,10 @@
-type ResponseDataAllFiles = 
+type Review = 
  record {
-   data: vec record {
-               text;
-               text;
-             };
-   status: bool;
- };
-type ResponseData = 
- record {
-   data: text;
-   status: bool;
+   images: text;
+   review: text;
+   stars: text;
  };
 service : {
-  getAllFiles: () -> (ResponseDataAllFiles) query;
-  getFile: (text) -> (ResponseData) query;
-  saveFile: (text, text) -> (ResponseData);
+  addReview: (text, int, text) -> () oneway;
+  getReview: () -> (vec Review) query;
 }

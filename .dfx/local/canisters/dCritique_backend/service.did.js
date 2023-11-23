@@ -1,13 +1,12 @@
 export const idlFactory = ({ IDL }) => {
-  const ResponseDataAllFiles = IDL.Record({
-    'status' : IDL.Bool,
-    'data' : IDL.Vec(IDL.Tuple(IDL.Text, IDL.Text)),
+  const Review = IDL.Record({
+    'review' : IDL.Text,
+    'stars' : IDL.Text,
+    'images' : IDL.Text,
   });
-  const ResponseData = IDL.Record({ 'status' : IDL.Bool, 'data' : IDL.Text });
   return IDL.Service({
-    'getAllFiles' : IDL.Func([], [ResponseDataAllFiles], ['query']),
-    'getFile' : IDL.Func([IDL.Text], [ResponseData], ['query']),
-    'saveFile' : IDL.Func([IDL.Text, IDL.Text], [ResponseData], []),
+    'addReview' : IDL.Func([IDL.Text, IDL.Int, IDL.Text], [], ['oneway']),
+    'getReview' : IDL.Func([], [IDL.Vec(Review)], ['query']),
   });
 };
 export const init = ({ IDL }) => { return []; };
