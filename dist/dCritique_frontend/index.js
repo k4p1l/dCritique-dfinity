@@ -20731,7 +20731,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, `.R55UYRz2JnBh3s4JBEe0 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-between;
   padding: 1.2vw;
   background-color: #fdfddd;
   border-radius: 1.5vw;
@@ -20755,6 +20755,7 @@ ul {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  width: 70vw;
 }
 
 .mDY8QqW7ovGdBwrIS7Io {
@@ -20764,6 +20765,7 @@ ul {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+
 }
 
 .m9FfTIAHiv7WKxPe7IjG {
@@ -20777,7 +20779,35 @@ ul {
   height: auto;
   border-radius: 2vw;
 }
-`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Reviews.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,cAAc;EACd,yBAAyB;EACzB,oBAAoB;EACpB,UAAU;EACV,sBAAsB;AACxB;AACA;EACE,aAAa;EACb,mBAAmB;EACnB,QAAQ;AACV;;AAEA;EACE,WAAW;EACX,YAAY;AACd;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,cAAc;EACd,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,oBAAoB;AACtB;AACA;EACE,WAAW;EACX,YAAY;EACZ,kBAAkB;AACpB","sourcesContent":[".item {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  padding: 1.2vw;\n  background-color: #fdfddd;\n  border-radius: 1.5vw;\n  width: 98%;\n  box-sizing: border-box;\n}\n.review {\n  display: flex;\n  flex-direction: row;\n  gap: 1vw;\n}\n\nul {\n  margin: 0px;\n  padding: 0px;\n}\n.text {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.625vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n}\n\n.star {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.6vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n}\n\n.imgContainer {\n  max-width: 16vw;\n  max-height: 30vw;\n  overflow: hidden;\n  margin-bottom: 0.5vw;\n}\n.image {\n  width: 100%;\n  height: auto;\n  border-radius: 2vw;\n}\n"],"sourceRoot":""}]);
+
+.YGi7_sDvThAZ4k2GOon6{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  justify-content: center;
+  align-items:flex-start;
+}
+.Li6UBPERgUKEK7qrmxRp , .WYW4GSibLSD8Jz3w8_nk{
+border: #162356 solid;
+background-color: aliceblue;
+font-size: 14px;
+padding: 5px;
+padding-bottom: 8px;
+border-radius: 0.5vw;
+color: #162356;
+font-family: up;
+letter-spacing: 1px;
+cursor: pointer;
+transition: 0.25s ease-out;
+}
+
+.Li6UBPERgUKEK7qrmxRp:hover, .WYW4GSibLSD8Jz3w8_nk:hover {
+  background-color: #162356;
+  color: #ffe627;
+  /* transform: scale(90%); */
+  border: #ffe627 solid;
+}
+`, "",{"version":3,"sources":["webpack://./src/dCritique_frontend/src/Styles/Reviews.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,6BAA6B;EAC7B,cAAc;EACd,yBAAyB;EACzB,oBAAoB;EACpB,UAAU;EACV,sBAAsB;AACxB;AACA;EACE,aAAa;EACb,mBAAmB;EACnB,QAAQ;AACV;;AAEA;EACE,WAAW;EACX,YAAY;AACd;AACA;EACE,cAAc;EACd,kBAAkB;EAClB,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,cAAc;EACd,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;;AAErB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,oBAAoB;AACtB;AACA;EACE,WAAW;EACX,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,QAAQ;EACR,uBAAuB;EACvB,sBAAsB;AACxB;AACA;AACA,qBAAqB;AACrB,2BAA2B;AAC3B,eAAe;AACf,YAAY;AACZ,mBAAmB;AACnB,oBAAoB;AACpB,cAAc;AACd,eAAe;AACf,mBAAmB;AACnB,eAAe;AACf,0BAA0B;AAC1B;;AAEA;EACE,yBAAyB;EACzB,cAAc;EACd,2BAA2B;EAC3B,qBAAqB;AACvB","sourcesContent":[".item {\n  display: flex;\n  flex-direction: row;\n  justify-content:space-between;\n  padding: 1.2vw;\n  background-color: #fdfddd;\n  border-radius: 1.5vw;\n  width: 98%;\n  box-sizing: border-box;\n}\n.review {\n  display: flex;\n  flex-direction: row;\n  gap: 1vw;\n}\n\nul {\n  margin: 0px;\n  padding: 0px;\n}\n.text {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.625vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n  width: 70vw;\n}\n\n.star {\n  color: #3c3f9b;\n  font-family: Inter;\n  font-size: 1.6vw;\n  font-style: normal;\n  font-weight: 800;\n  line-height: normal;\n\n}\n\n.imgContainer {\n  max-width: 16vw;\n  max-height: 30vw;\n  overflow: hidden;\n  margin-bottom: 0.5vw;\n}\n.image {\n  width: 100%;\n  height: auto;\n  border-radius: 2vw;\n}\n\n.votebtns{\n  display: flex;\n  flex-direction: row;\n  gap: 1vw;\n  justify-content: center;\n  align-items:flex-start;\n}\n.like , .dislike{\nborder: #162356 solid;\nbackground-color: aliceblue;\nfont-size: 14px;\npadding: 5px;\npadding-bottom: 8px;\nborder-radius: 0.5vw;\ncolor: #162356;\nfont-family: up;\nletter-spacing: 1px;\ncursor: pointer;\ntransition: 0.25s ease-out;\n}\n\n.like:hover, .dislike:hover {\n  background-color: #162356;\n  color: #ffe627;\n  /* transform: scale(90%); */\n  border: #ffe627 solid;\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"item": `R55UYRz2JnBh3s4JBEe0`,
@@ -20785,7 +20815,10 @@ ___CSS_LOADER_EXPORT___.locals = {
 	"text": `hXEqWlilpxGGL0DKnWXR`,
 	"star": `mDY8QqW7ovGdBwrIS7Io`,
 	"imgContainer": `m9FfTIAHiv7WKxPe7IjG`,
-	"image": `N3YCt2uL_o4IsFITjAiT`
+	"image": `N3YCt2uL_o4IsFITjAiT`,
+	"votebtns": `YGi7_sDvThAZ4k2GOon6`,
+	"like": `Li6UBPERgUKEK7qrmxRp`,
+	"dislike": `WYW4GSibLSD8Jz3w8_nk`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -64680,8 +64713,11 @@ function Reviews() {
                 react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", { className: _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].text }, a.review)),
             react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", { className: _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].star },
                 a.stars,
-                "\u2B50")))));
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, reviews));
+                "\u2B50"),
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].votebtns },
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].like }, "\uD83D\uDC4D"),
+                react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", { className: _Styles_Reviews_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].dislike }, "\uD83D\uDC4E"))))));
+    return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, reviews);
 }
 
 

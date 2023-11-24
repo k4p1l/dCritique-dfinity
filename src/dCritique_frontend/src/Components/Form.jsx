@@ -91,6 +91,7 @@ function Form() {
             );
           })}
         </div>
+        
         <div className={f.buttons}>
           <button className={f.Btn} onClick={onSubmit}>
             Upload a Photo

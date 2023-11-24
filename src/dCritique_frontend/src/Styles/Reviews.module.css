@@ -1,7 +1,7 @@
 .item {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-between;
   padding: 1.2vw;
   background-color: #fdfddd;
   border-radius: 1.5vw;
@@ -25,6 +25,7 @@ ul {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  width: 70vw;
 }
 
 .star {
@@ -34,6 +35,7 @@ ul {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+
 }
 
 .imgContainer {
@@ -47,3 +49,4 @@ ul {
   height: auto;
   border-radius: 2vw;
 }
+
