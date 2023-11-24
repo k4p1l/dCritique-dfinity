@@ -21,7 +21,7 @@
   transition: 0.25s ease-out;
   font-family: Inter;
   font-size: 1vw;
-  font-style: normal;
+  font-weight: 800;
   color: #1a20cf;
 }
 
@@ -53,6 +53,6 @@
   transition: 0.25s ease-out;
   font-family: Inter;
   font-size: 1vw;
-  font-style: normal;
-  color: #1a20cf;
+  font-weight: 800;
+  color: #c4c6fe;
 }
